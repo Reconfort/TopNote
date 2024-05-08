@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import ProductCard from "./components/productComponent/ProductCard";
 import { getServerSession } from "next-auth";
-import { authOption } from "./api/auth/[...nextauth]/route";
+import { authOption } from "./api/auth/authOption";
 import Pic from "@/public/Picture.png"
 // import HeavyComponent from "./components/HeavyComponent";
 
